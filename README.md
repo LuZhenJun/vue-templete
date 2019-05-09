@@ -22,6 +22,8 @@
 > 可复用组件样式
 #### _reset.scss
 > 重置样式
+## components
+> 公共组件
 ## conf
 ### axios.config.js
 > 服务调用对象配置实现

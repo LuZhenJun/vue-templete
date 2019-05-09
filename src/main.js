@@ -7,12 +7,14 @@ import http from './utils/http'
 import router from './router'
 import store from './store/store'
 
+import components from './components'
 import serviceAPI from './conf/services'
 import pbulicFunc from './conf/publicFunc'
 import vfilter from './conf/filters'
 
 import App from './App.vue'
 
+Vue.use(components)
 Vue.use(http)
 
 Vue.config.productionTip = false
