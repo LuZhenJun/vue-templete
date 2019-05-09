@@ -1,0 +1,133 @@
+.flex-ju-cen{
+  display: flex;
+  justify-content: center;
+}
+.flex-ju-end{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-direction-column{
+  flex-direction: column;
+}
+
+
+.flex-ju-bet{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-al-cen{
+  display: flex;
+  align-items: center;
+}
+
+
+.flex-cen-cen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-bet{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-bet-cen{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-absolute_all {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hei_40{
+  height: 40px;
+}
+.hei-32px{
+  height: 32px;
+}
+.hei-60px{
+  height: 60px;
+}
+.d-none {
+  display: none;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.mt-10{
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mb-35 {
+  margin-bottom: 35px;
+}
+.pl-30{
+  padding-left: 30px;
+}
+.pr-30{
+  padding-right: 30px;
+}
+.py-5px{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.px-30{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.mt-14{
+  margin-top: 14px;
+}
+.ml-30{
+  margin-left: 30px;
+}
+.mr-30{
+  margin-right: 30px;
+}
+.mx-30{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.color-333 {
+  color: #333;
+}
+.color-666 {
+  color: #666;
+}
+.color-999 {
+  color: #999;
+}
+
+.line-shadow {
+  box-shadow: 1px 0 0 0 rgba(220, 223, 230, .5);
+}
+
+.text-ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
