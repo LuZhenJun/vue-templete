@@ -1,3 +1,42 @@
 /**
  * 本文件是项目重布局样式
 **/
+.quickLearning{
+  padding: 46px 104px 0 89px;
+  display: flex;
+}
+.quickLearning_menu{
+  width: 276px;
+  border: 1px solid #E6EAED;
+  position: fixed;
+  .menu_step{
+    height: 53px;
+    border-bottom: 1px solid #EFEFEF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .aid-chevron-right{
+      color: #DFE1E6;
+    }
+  }
+}
+.quickLearning_content{
+  margin-left: 300px;
+  width: 600px;
+  .content_div{
+    height: 600px;
+    border-top: 5px solid #ddd;
+    background: #06B39D;
+  }
+}
+.menu_step_active{
+  background: #EBECF0;
+  .aid-chevron-right{
+    color: #061B36!important;
+  }
+}
+.text-md{  font-size: 14px;  }
+.pl-32{padding-left: 32px;}
+.pr-12{  padding-right: 12px;  }
+.pr-16{  padding-right: 16px;  }
+.cursor-pointer{  cursor: pointer;  }
