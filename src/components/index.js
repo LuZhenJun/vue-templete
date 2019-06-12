@@ -1,7 +1,10 @@
 // ✨✨✨
+import 'index.scss'
 import yStar from './star/index.js'
+import yModel from './model/index.js'
 let components = {
-  yStar
+  yStar,
+  yModel
 }
 
 const install = function (Vue, opts = {}) {

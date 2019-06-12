@@ -20,5 +20,13 @@ export default [
     component: {
       template: '<div>not found</div>'
     }
+  },
+  {
+    name: 'components',
+    path: '/components',
+    meta: {
+      title: 'components'
+    },
+    component: require('../views/components.vue')
   }
 ]

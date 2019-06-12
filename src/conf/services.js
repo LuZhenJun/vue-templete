@@ -9,7 +9,7 @@
  * }
  */
 const SERVICE = {
-  demo: '/demo' // 菜单
+  selectData: '/getSelectData' // 菜单
 }
 
 export default SERVICE
