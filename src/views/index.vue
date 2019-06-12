@@ -55,6 +55,7 @@ export default {
       let step = offsetTop / 50
       let distance = document.documentElement.scrollTop || document.body.scrollTop
       let time = null
+      console.log(time)
       const moveUp = () => {
         if (distance > offsetTop) {
           distance -= step
