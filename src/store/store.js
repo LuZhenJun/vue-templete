@@ -1,16 +1,17 @@
-/** 
+/**
  * 该文件用于页面所有store的状态管理
- * @author luzhenjun
+ * @author yangxiong
  * @package Vue、Vuex => 公共npm包；
  *          http => 全局封装的axios方法；service => 项目请求接口地址配置
  *          select => 单个store模块
  * @returns store => {state, mutations, actions, getters}
 */
-import Vue from 'vue'
+
 import Vuex from 'vuex'
+import Vue from 'vue'
+import select from './select.js'
 import http from '../utils/http.js'
 import service from '../conf/services.js'
-import select from './select.js'
 
 Vue.use(Vuex)
 
